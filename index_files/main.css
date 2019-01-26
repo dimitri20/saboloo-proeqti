@@ -1,0 +1,105 @@
+
+/*globalclass*/
+
+.display-inline-block{
+	display: inline-block;
+}
+.display-sblock{
+	display: block;
+}
+.clearfix{
+	clear: both;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.relativeposition{
+	position: relative;
+}
+.absoluteposition{
+	position: absolute;
+}
+/*globalclass*/
+
+
+#header{
+  width: 100%;
+  padding-bottom:680px; 
+  background-image: url("../images/MainPic.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#menuline1{
+	margin-top: 19px;
+	float: left;
+	height: 60px;
+	width: 1072px;
+	background-color: #3D2C39;
+}
+
+#menuline2{
+	margin-left: 20px;
+	margin-top: 19px;
+	height: 60px;
+	width: 257px;
+	background-color: #3D2C39;
+}
+
+#yellowlinemenuline{
+	background-color: #F1AF08;
+	width: 96px;
+	height: 60px;
+	top: 19px;
+	left: 374px;
+
+}
+
+#logoimage1{
+	top: 0px;
+	left: 105px;
+}
+#logoimage2{
+	top: 41px;
+	left: 129px;
+}
+#searchimage{
+	
+	top: 42px;
+	right: 20px;
+}
+#contactimage{
+	
+	top: 40px;
+	right: 220px;
+}
+
+#yellowmenulinetext{
+	top: 30%;
+	left: 15%;
+	font-size: 14px;
+	color: #fff;
+}
+#menuline1text{
+	color: #fff;
+    font-size: 14px;
+    top: 39px;
+    left: 233px;
+}
+#menuline2text{
+	color: #fff;
+    font-size: 14px;
+    top: 39px;
+    left: 485px;
+}
+#menuline3text{
+	color: #fff;
+    font-size: 14px;
+    top: 39px;
+    left: 485px;
+}
