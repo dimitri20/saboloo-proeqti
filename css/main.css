@@ -28,6 +28,7 @@
 
 body{
 	background-color: #ECF0F1;
+
 }
 
 header{
@@ -252,7 +253,7 @@ header{
 
 #banner2{
 	position: relative;
-	top: -1030px;
+	
 	padding-top: 130px;
 	text-align: center;
 	height: 821px;
@@ -284,6 +285,13 @@ header{
 	background-color: #fff;
 	margin-right: 20px;
 	margin-top: 69px;
+	transition: width 1s, height 1s, padding-top 1s;
+}
+
+.banner2div1:hover{
+	padding-top: 60px;
+	height: 510px;
+	width: 385px;
 }
 
 
@@ -306,13 +314,13 @@ header{
 	display: inline-block;
 	font-size: 12px;
 	color:#fff;
-    border:1px solid;
-    background-color: #F1AF08;
-    padding-right:19px;
-    padding-left:19px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 54px;
+	border:1px solid;
+	background-color: #F1AF08;
+	padding-right:19px;
+	padding-left:19px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 54px;
 }
 
 .ul1{
@@ -328,4 +336,57 @@ header{
 .li3 p{
 	color: #3D2C39;
 	font-size: 12px;
+}
+
+#banner2div1id h6{
+	margin-bottom: 12px;
+}
+#banner2div2id h6{
+	margin-bottom: 12px;
+}
+
+#monawileoba{
+	display: inline-block;
+	font-size: 12px;
+	color:#fff;
+	border:1px solid;
+	background-color: #F1AF08;
+	width: 135px;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 20px;
+
+}
+#jiuri{
+	display: inline-block;
+	font-size: 12px;
+	color:#fff;
+	border:1px solid;
+	background-color: #F1AF08;
+	width: 135px;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#div1{
+	text-align: center;
+	margin-top: 60px;
+	
+}
+
+#divimg1{
+	position: relative;
+}
+
+#divimg1 div{
+	position: absolute;
+
 }
