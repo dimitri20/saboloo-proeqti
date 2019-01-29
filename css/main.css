@@ -36,7 +36,7 @@ header{
 	padding-bottom:680px; 
 	background-image: url("../images/MainPic.png");
 	/*background-color: #cccccc;*/
-	background-position: center;
+	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -50,7 +50,9 @@ header{
 }
 
 #menuline2{
-	margin-left: 20px;
+	
+	position: absolute;
+	right: 0px;
 	margin-top: 19px;
 	height: 60px;
 	width: 257px;
@@ -85,32 +87,88 @@ header{
 	right: 220px;
 }
 
-#yellowmenulinetext{
-	top: 34%;
-	left: 18%;
-	font-size: 12px;
-	color: #fff;
+#nav1div{
+	width: 116px;
+	height: 60px;
+	position: absolute;
+	top: 19px;
+	left: 233px;
+	
 }
+#nav1div:hover{
+	background-color: #F1AF08;
+}
+
 #menuline1text{
 	color: #fff;
 	font-size: 12px;
-	top: 42px;
-	left: 233px;
+	left: 7px;
+	top: 21px;
 }
+
+#nav2div{
+	width: 96px;
+	height: 60px;
+	position: absolute;
+	top: 19px;
+	left: 457px;
+
+}
+
 #menuline2text{
 	color: #fff;
 	font-size: 12px;
-	top: 41px;
-	left: 485px;
+	left: 19px;
+	top: 21px;
+}
+#nav2div:hover{
+	background-color: #F1AF08;
+}
+#nav3div{
+	width: 96px;
+	height: 60px;
+	position: absolute;
+	top: 19px;
+	left: 355px;
+	
+}
+#menuline4text{
+	color: #fff;
+	font-size: 12px;
+	left: 19px;
+	top: 21px;
+}
+#nav3div:hover{
+	background-color: #F1AF08;
+}
+#nav4div{
+	width: 150px;
+	height: 60px;
+	position: absolute;
+	top: 19px;
+	right: 66px;
+	
 }
 #menuline3text{
 	color: #fff;
 	font-size: 12px;
-	top: 41px;
-	/* left: 485px; */
-	right: 64px;
+	left:13px;
+	top: 21px;
 }
+#nav4div:hover{
+	background-color: #F1AF08;
+}
+#contact{
 
+	position: absolute;
+	top: 35px;
+	right: 223px;
+}
+#search{
+	position: absolute;
+	top: 35px;
+	right: 25px;
+}
 /*header*/
 
 
@@ -120,11 +178,14 @@ header{
 }
 
 #menubutton1{
-	background-color: #971E2C;
+	background-color: #F1AF08;
 	left: 453px;
 	top: 519px;
 	width: 220px;
 	height: 40px;
+}
+#menubutton1:hover{
+	background-color: #971E2C;
 }
 #menubuttontext1{
 	color: #fff;
@@ -140,6 +201,9 @@ header{
 	top: 519px;
 	width: 220px;
 	height: 40px;
+}
+#menubutton2:hover{
+	background-color: #971E2C;
 }
 #menubuttontext2{
 	color: #fff;
@@ -177,8 +241,10 @@ header{
 	left: 23%;
 }
 
+/*section1*/
 
 #banner{
+	height: 501px;
 	margin-left: 105px;
 	margin-top: 60px;
 }
@@ -250,10 +316,13 @@ header{
 	text-align: center;
 	bottom: 420px;
 }
+/*section1*/
 
+
+
+/*section2*/
 #banner2{
-	position: relative;
-	
+	margin-top: 80px;
 	padding-top: 130px;
 	text-align: center;
 	height: 821px;
@@ -288,12 +357,12 @@ header{
 	transition: width 1s, height 1s, padding-top 1s;
 }
 
-.banner2div1:hover{
+/*.banner2div1:hover{
 	padding-top: 60px;
 	height: 510px;
 	width: 385px;
 }
-
+*/
 
 
 .banner2div1 h6{
@@ -321,6 +390,11 @@ header{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-bottom: 54px;
+}
+
+.banner2div1text2:hover{
+	color:#aeaeae;
+	background-color: #fff;
 }
 
 .ul1{
@@ -361,6 +435,11 @@ header{
 	margin-right: 20px;
 
 }
+
+#monawileoba:hover{
+	color:#aeaeae;
+	background-color: #fff;
+}
 #jiuri{
 	display: inline-block;
 	font-size: 12px;
@@ -374,6 +453,10 @@ header{
 
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+#jiuri:hover{
+	color:#aeaeae;
+	background-color: #fff;
 }
 
 #div1{
