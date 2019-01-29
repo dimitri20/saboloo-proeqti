@@ -466,10 +466,25 @@ header{
 }
 
 #divimg1{
-	position: relative;
+	margin-left: 98px;
 }
 
-#divimg1 div{
+.names{
+	height: 40px;
+	width: 156px;
 	position: absolute;
+	text-align: center;
+	background-color: #fff;
+	bottom: 8px;
+    left: 9px;
+    opacity: 0.8;
+}
+.names p{
+	text-align: left;
+	font-size: 12px;
+	color: #3D2C39;
+}
 
+.divimgg{
+	margin-left: 19px;
 }
