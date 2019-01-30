@@ -464,11 +464,10 @@ header{
 	margin-top: 60px;
 	
 }
-
-#divimg1{
-	margin-left: 98px;
+#divv{
+	text-align: center;
+	margin-top: 60px;
 }
-
 .names{
 	height: 40px;
 	width: 156px;
@@ -476,8 +475,8 @@ header{
 	text-align: center;
 	background-color: #fff;
 	bottom: 8px;
-    left: 9px;
-    opacity: 0.8;
+	left: 9px;
+	opacity: 0.8;
 }
 .names p{
 	width: 80%;
@@ -489,3 +488,44 @@ header{
 .divimgg{
 	margin-left: 19px;
 }
+
+
+/*footer*/
+
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #3D2C39;
+	margin-top: 60px;
+	
+}
+
+#footerline{
+	padding-top: 20px;
+}
+
+#fb{
+	width: 19.9999px;
+	height:19.9999px;
+	margin-left:105px;
+}
+
+#ins{
+	width: 19.9999px;
+	height:19.9999px;
+	margin-left: 10px;
+}
+
+#you{
+	width: 19.9999px;
+	height:19.9999px;
+	margin-left: 10px;
+}
+
+#srcli{
+	float: right;
+	margin-right: 105px;
+}
+
+
+/*footer*/
