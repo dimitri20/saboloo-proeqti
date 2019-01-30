@@ -22,12 +22,21 @@
 .absoluteposition{
 	position: absolute;
 }
+.arial{
+ font-family: "BPGArial2010";
+}
+.arialcaps{
+	font-family: "BPGArialCaps2010";
+}
+
+
 /*globalclass*/
 
 /*header*/
 
 body{
 	background-color: #ECF0F1;
+	overflow-x:hidden;
 
 }
 
@@ -483,6 +492,7 @@ header{
 	text-align: left;
 	font-size: 12px;
 	color: #3D2C39;
+	    font-weight: 600;
 }
 
 .divimgg{
