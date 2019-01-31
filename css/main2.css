@@ -1,0 +1,279 @@
+
+/*globalclass*/
+
+.display-inline-block{
+	display: inline-block;
+}
+.display-sblock{
+	display: block;
+}
+.clearfix{
+	clear: both;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.relativeposition{
+	position: relative;
+}
+.absoluteposition{
+	position: absolute;
+}
+.arial{
+	font-family: "BPGArial2010";
+}
+.arialcaps{
+	font-family: "BPGArialCaps2010";
+}
+
+
+/*globalclass*/
+
+
+
+/*header*/
+
+
+#menuline1{
+	height: 60px;
+	width: 100%;
+	background-color: #3D2C39;
+}
+
+#logoimage2{
+	width: 40px;
+	height: 40px;
+	left: 103px;
+	top: 10px;
+}
+#searchimage{	
+	top: 42px;
+	right: 20px;
+}
+#contactimage{
+	
+	top: 40px;
+	right: 220px;
+}
+
+#nav1div{
+	width: 116px;
+	height: 60px;
+	position: absolute;
+	top: 0px;
+	left: 167px;
+	
+}
+#nav1div:hover{
+	background-color: #F1AF08;
+}
+
+#menuline1text{
+	color: #fff;
+	font-size: 12px;
+	left: 7px;
+	top: 21px;
+}
+
+#nav2div{
+	width: 96px;
+	height: 60px;
+	position: absolute;
+	top: 0px;
+	left: 290px;
+
+}
+
+#menuline2text{
+	color: #fff;
+	font-size: 12px;
+	left: 19px;
+	top: 21px;
+}
+#nav2div:hover{
+	background-color: #F1AF08;
+}
+#nav3div{
+	width: 96px;
+	height: 60px;
+	position: absolute;
+	top:0px;
+	left: 392px;
+	
+}
+#menuline4text{
+	color: #fff;
+	font-size: 12px;
+	left: 19px;
+	top: 21px;
+}
+#nav3div:hover{
+	background-color: #F1AF08;
+}
+#nav4div{
+	width: 150px;
+	height: 60px;
+	position: absolute;
+	top: 0px;
+	right: 160px;
+	
+}
+#menuline3text{
+	color: #fff;
+	font-size: 12px;
+	left:13px;
+	top: 21px;
+}
+#nav4div:hover{
+	background-color: #F1AF08;
+}
+#contact{
+
+	position: absolute;
+	top: 15px;
+	right: 319px;
+}
+#search{
+	position: absolute;
+	top: 15px;
+	right: 105px;
+}
+/*header*/
+
+#cntt{
+	margin-top: 51px;
+}
+
+#contactinfo{
+	font-size: 20px;
+	color: #3D2C39;
+	text-align: center;
+}
+
+#cntline{
+	display: block;
+	margin-left: 408px;
+	margin-top: 14px;
+}
+
+#tsu{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 100px;
+
+}
+
+#geossell{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 93px;
+	height: 100px;
+}
+#maindiv{
+	margin-top: 57px;
+	text-align: center;
+}
+
+.tsutext{
+	font-size: 16px;
+	color: #3D2C39;
+	margin-top: 24px;
+	text-align: center;
+}
+.mis{
+	font-size: 12px;
+	color:#000;
+	margin-top: 28px;
+	text-align: center;
+}
+.qobstreet{
+	font-size: 12px;
+	color: #7F8C8D;
+	margin-top: -15px;
+	text-align: center;
+}
+.tell{
+	font-size: 12px;
+	color:#000;
+	margin-top: 20px;
+	text-align: center;
+}
+.tellnumber{
+	font-size: 12px;
+	color: #7F8C8D;
+	margin-top: -15px;
+	text-align: center;
+}
+.email{
+	font-size: 12px;
+	color:#000;
+	margin-top: 20px;
+	text-align: center;
+}
+.emaill{
+	font-size: 12px;
+	color: #7F8C8D;
+	margin-top: -15px;
+	text-align: center;
+    margin-bottom: 60px;
+}
+
+.fbimgdiv{
+	position: absolute;
+	left: 44%;
+	margin-top: 60px;
+}
+
+.fbpage{
+	top: 14px;
+	left: 38px;
+}
+#firstdivv{
+	margin-right: 115px;
+}
+
+/*footer*/
+
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #3D2C39;
+	margin-top: 195px;
+	
+}
+
+#footerline{
+	padding-top: 20px;
+}
+
+#fb{
+	width: 19.9999px;
+	height:19.9999px;
+	margin-left:105px;
+}
+
+#ins{
+	width: 19.9999px;
+	height:19.9999px;
+	margin-left: 10px;
+}
+
+#you{
+	width: 19.9999px;
+	height:19.9999px;
+	margin-left: 10px;
+}
+
+#srcli{
+	float: right;
+	margin-right: 105px;
+}
+
+
+/*footer*/
