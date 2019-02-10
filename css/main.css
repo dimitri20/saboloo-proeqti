@@ -542,7 +542,7 @@ footer{
 /*footer*/
 
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 320px){
 
 	header{
 
@@ -770,7 +770,7 @@ footer{
 }
 
 
-/*@media screen and (min-width: 375px){
+@media screen and (min-width:375px){
 
 	#nav1div{
 		top: 8px;
@@ -846,7 +846,7 @@ footer{
 		height: 450px;
 		padding-left: 20px;
 		padding-right: 20px;
-		/* left: 17px; 
+		left: 17px; 
 		margin-left: 3px;
 		margin-top: 125px;
 	}
@@ -857,4 +857,87 @@ footer{
 	}
 
 
-}*/
+}
+
+@media screen and (min-width:425px){
+	#nav1div{
+		left: 220px;
+	}
+	#nav2div{
+		left: 227px; 
+	}
+	#nav3div{
+		left: 227px;
+	}
+	#contact{
+		right: 228px;
+	}
+	#nav4div{
+		right: 75px;
+
+	}
+	#search{
+		right: 50px;
+	}
+	#logoimage1{
+		left: 33px;
+	}
+	#logoimage2{
+		left: 59px;
+	}
+	#legend{
+		width: 381px;
+
+		left: 25px;
+	}
+	#menubutton1{
+		left: 21px;
+	}
+	#menubutton2{
+		left: 225px;
+	}
+	#info h5{
+		font-size: 25px;
+	}
+	#info div{
+		left: 61px;
+	}
+	#bannerdiv{
+		width: 405px;
+	}
+	#img1{
+		width: 208px;
+		height: 255px;
+	}
+	#img2{
+		width:405px;
+	}
+	#img3{
+		left: 208px;
+		top: -780px;
+	}
+	#img3 img{
+		width: 197px;
+
+	}
+	#opacityblack{
+		width: 197px;
+	}
+
+	#banner2{
+		margin-top: 549px;
+	}
+	#banner2div h5{
+		font-size: 25px;
+	}
+	#banner2div1{
+		margin-top: 132px;
+	}
+	.divimgg{
+		margin-left: 28px;
+	}
+	.divimgg img{
+		width: 170px;
+	}
+
+}
