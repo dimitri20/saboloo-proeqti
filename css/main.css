@@ -23,12 +23,14 @@
 	position: absolute;
 }
 .arial{
- font-family: "BPGArial2010";
+	font-family: "BPGArial2010";
 }
 .arialcaps{
 	font-family: "BPGArialCaps2010";
 }
-
+html, body{
+	overflow-x: hidden;
+}
 
 /*globalclass*/
 
@@ -36,7 +38,6 @@
 
 body{
 	background-color: #ECF0F1;
-	overflow-x:hidden;
 
 }
 
@@ -492,7 +493,7 @@ header{
 	text-align: left;
 	font-size: 12px;
 	color: #3D2C39;
-	    font-weight: 600;
+	font-weight: 600;
 }
 
 .divimgg{
@@ -539,3 +540,321 @@ footer{
 
 
 /*footer*/
+
+
+@media screen and (min-width: 320px){
+
+	header{
+
+		padding-bottom:131px; 
+		background-size: 100%;
+	}
+
+	#legend{
+		width: 310px;
+		top: 256px;
+		left: 6px;
+	}
+
+	#menuline1{
+		margin-top: 0px;
+		float: left;
+		height: 190px;
+		width: 100%;
+	}
+
+	#menuline2{
+		width: 0px;
+		height: 0px;
+		position: unset;
+	}
+
+	#logoimage1 {
+		top: 0px;
+		left: 14px;
+	}
+
+	#logoimage2 {
+		top: 41px;
+		left: 40px;
+	}
+	#nav1div {
+		width: 115px;
+		height: 36px;
+		top: 8px;
+		left: 157px;
+	}
+	#menuline1text {
+		top: 11px;
+	}
+	#nav2div {
+		width: 93px;
+		height: 36px;
+
+		top: 45px;
+		left: 166px;
+	}
+	#menuline2text {
+		top: 11px;
+	}
+	#nav3div {
+		width: 93px;
+		height: 36px;
+
+		top: 82px;
+		left: 167px;
+	}
+	#menuline4text{
+		top: 11px;
+	}
+	#contact {
+
+		top: 147px;
+		right: 269px;
+	}
+	#nav4div {
+		height: 36px;
+		right: 31px;
+		top: 142px;
+	}
+	#menuline3text{
+		left: 18px;
+		top: 11px;
+
+	}
+	#search {
+
+		top: 147px;
+		right: 208px;
+	}
+	#info{
+		margin-top: 157px;
+	}
+
+	#info img{
+		left: 0px;
+	}
+
+	#info p{
+		font-size: 14px;
+		width: 300px;
+	}
+
+	#info div{
+		left: 10px;
+	}
+	#banner{
+		margin-left: 10px;
+	}
+	#bannerdiv{
+		width: 300px;
+		height: 270px;
+	}
+	#img1{
+		width: 150px;
+		top: 0px;
+		left: 0px;
+		height: 195px;
+	}
+	#img2{
+		bottom: 0px;
+		width: 301px;
+
+		left: 0px;
+	}
+	#img3{
+		left: 150px;
+		top: -585px;
+	}
+	#img3 img{
+		width: 150px;
+	}
+	#opacityblack{
+		width: 150px;
+		height: 97px;
+		bottom: 97px;
+	}
+	#img3 p{
+		bottom: 177px;
+		font-size: 17px;
+		left: -117px;
+
+	}
+	#banner2{
+		height: 300px;
+		margin-top: 353px;
+
+	}
+	#banner2div{
+
+	}
+	#banner2div img{
+		visibility: hidden;
+	}
+	.banner2div1{
+		width: 98%;
+		height: 450px;
+		padding-left: 20px;
+		padding-right: 20px;
+		/* left: 17px; */
+		margin-left: 4px;
+		margin-top: 125px;
+	}
+	#banner2div1id{
+		margin-top: 12px;
+	}
+	#banner2div2id{
+		margin-top: 12px;
+	}
+
+	#banner3{
+		margin-top: 1445px;
+	}
+	#divv{
+		text-align: -webkit-auto;
+
+	}
+	#divimg1{
+
+	}
+	.divimgg img{
+		width: 150px
+	}
+	.divimgg{
+		margin-left: 10px;
+		margin-left: 6px;
+		margin-top: 5px;
+	}
+	.names{
+		width: 130px;
+	}
+
+	#fb{
+		margin-left:26px;
+	}
+	#srcli{
+		margin-right: 25px;
+
+	}
+	#menubutton1{
+		background-color: #F1AF08;
+		left: 73px;
+		top: 395px;
+		width: 179px;
+		height: 40px;
+	}
+
+	#menubuttontext1{
+		color: #fff;
+		margin-bottom: 0px;
+		padding-left: 22px;
+		padding-top: 9px;
+		font-size: 12px;
+	}
+
+	#menubutton2{
+		background-color: #F1AF08;
+		left: 73px;
+		top: 457px;
+		width: 179px;
+		height: 40px;
+	}
+
+	#menubuttontext2{
+		color: #fff;
+		margin-bottom: 0px;
+		padding-left: 44px;
+		padding-top: 9px;
+		font-size: 12px;
+	}
+}
+
+
+@media screen and (min-width: 375px){
+
+	#nav1div{
+		top: 8px;
+		left: 192px;
+
+	}
+	#nav2div{
+		top: 45px;
+		left: 199px;
+	}
+	#nav3div{
+		top: 82px;
+		left: 198px;
+	}
+	#contact{
+		top: 123px;
+		right: 211px;
+	}
+	#nav4div{
+		right: 54px;
+		top: 117px;
+	}
+	#search{
+		top: 123px;
+		right: 30px;
+	}
+	#legend{
+		width: 339px;
+		top: 237px;
+		left: 20px;
+	}
+	#menubutton1{
+		left: 3px;
+		top: 395px;
+	}
+	#menubutton2{
+		left: 192px;
+		top: 395px;
+	}
+	#info div{
+		left: 35px;
+	}
+	#bannerdiv {
+		width: 357px;
+		height: 270px;
+	}
+	#img1 {
+		width: 182px;
+		top: 0px;
+		left: 0px;
+		height: 227px;
+	}
+	#img2 {
+		bottom: 0px;
+		width: 357px;
+		left: 0px;
+	}
+	#img3 {
+		left: 182px;
+		top: -690px;
+	}
+	#img3 img {
+		width: 175px;
+	}
+	#opacityblack {
+		width: 175px;
+	}
+	#banner2 {
+		margin-top: 458px;
+	}
+	.banner2div1 {
+		width: 98%;
+		height: 450px;
+		padding-left: 20px;
+		padding-right: 20px;
+		/* left: 17px; */
+		margin-left: 3px;
+		margin-top: 125px;
+	}
+	.divimgg {
+		margin-left: 10px;
+		margin-left: 24px;
+		margin-top: 5px;
+	}
+
+
+}
