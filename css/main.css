@@ -34,6 +34,8 @@ html, body{
 
 /*globalclass*/
 
+
+
 /*header*/
 
 body{
@@ -941,3 +943,421 @@ footer{
 	}
 
 }
+
+
+@media screen and (min-width:768px){
+
+	header{
+		padding-bottom: 328px;
+		background-size: cover;
+	}
+
+	#menuline1{
+		margin-top: 19px;
+		float: left;
+		height: 60px;
+		width: 1072px;
+		background-color: #3D2C39;
+	}
+
+	#menuline2{
+
+		position: absolute;
+		right: 0px;
+		margin-top: 19px;
+		height: 60px;
+		width: 257px;
+		background-color: #3D2C39;
+	}
+
+	#yellowlinemenuline{
+		background-color: #F1AF08;
+		width: 96px;
+		height: 60px;
+		top: 19px;
+		left: 374px;
+
+	}
+
+	#logoimage1{
+
+		left: 25px;
+	}
+	#logoimage2{
+
+		left: 52px;
+	}
+	#searchimage{
+
+		top: 42px;
+		right: 20px;
+	}
+	#contactimage{
+
+		top: 40px;
+		right: 220px;
+	}
+
+	#nav1div{
+		width: 116px;
+		height: 60px;
+
+		top: 19px;
+		left: 160px;
+	}
+
+	#nav2div{
+		width: 96px;
+		height: 60px;
+		top: 19px;
+		left: 389px;
+
+	}
+
+	#nav3div{
+		width: 96px;
+		height: 60px;
+		top: 19px;
+		left: 286px;
+
+	}
+
+	#nav4div{
+		width: 150px;
+		height: 60px;
+		position: absolute;
+		top: 19px;
+		right: 59px;
+
+	}
+
+	#menuline1text, #menuline2text, #menuline3text, #menuline4text{
+		top: 21px;
+	}
+	#contact{
+
+		top: 34px;
+		right: 223px;
+	}
+	#search{
+		top: 34px;
+		right: 25px;
+	}
+
+	#legend{
+		width: 561px;
+		left: 106px;
+		top: 192px;
+	}
+	#menubutton1{
+		left: 200px;
+		top: 469px;
+	}
+	#menubutton2{
+		left: 417px;
+		top: 469px;
+
+	}
+	#info img {
+		left: 110px;
+	}
+	#info div {
+		left: 79px;
+	}
+	#info p {
+
+		width: 614px;
+	}
+
+	#img1 {
+		width: 272px;
+		height: 224px;
+		top: -155px;
+
+	}
+	#img2 {
+		bottom: 306px;
+		left: -4px;
+		height: 525px;
+		width: 230px;
+	}
+	#img3 {
+		width: 432px;
+		bottom: -46px;
+		left: 502px;	
+		top: -831px;
+	}
+	#img3 img {
+		width: 247px;
+		height: 525px;
+
+	}
+	#bannerdiv {
+		width: 272px;
+		height: 300px;
+	}
+	#banner2{
+		margin-top: 174px;
+		height: 852px;
+	}
+
+	.banner2div1 {
+		width: 231px;
+		height: 544px;
+		padding-left: 10px;
+		padding-right: 20px;
+		left: 17px;
+		margin-left: -10px;
+		margin-top: 0px;
+	}
+	#banner2div11{
+		margin-left: 24px;
+	}
+	.ul1{
+		margin-top: -40px;
+	}
+
+	#div1{
+		margin-top: -1368px;
+	}
+	.divimgg img{
+		width: 189px;
+
+	}
+	.divimgg{
+		margin-left: 47px;
+		margin-top: 20px;
+	}
+
+}
+@media screen and (min-width:1024px){
+
+	#legend {
+		width: 700px;
+		left: 170px;
+		top: 180px;
+	}
+	#menubutton1 {
+		left: 337px;
+
+	}
+	#menubutton2 {
+		left: 567px;
+
+	}
+	#info img {
+		left: 226px;
+	}
+	#info div {
+		left: 195px;
+	}
+	#bannerdiv{
+		width: 385px;
+		height: 250px;
+	}
+	#img1 {
+		width: 384px;
+		height: 271px;
+		top: -125px;
+	}
+	#img2 {
+		bottom: 252px;
+		left: -5px;
+		height: 525px;
+		width: 333px;
+	}
+	#img3 {
+		width: 432px;
+		bottom: -46px;
+		left: 715px;
+		top: -777px;
+	}
+	#img3 img {
+		width: 285px;
+		height: 525px;
+	}
+	#opacityblack {
+		width: 284px;
+		height: 207px;
+		bottom: 208px;
+	}
+	.banner2div1{
+
+		margin-right: 35px;
+		width: 300px;
+		height: 405px;
+	}
+	#img3 p {
+		bottom: 348px;
+		font-size: 28px;
+		left: -80px;
+	}
+
+	#banner2{
+		height: 710px;
+	}
+	.divimgg img {
+		width: 155px;
+	}
+	.divimgg {
+		margin-left: 10px;
+	}
+	#divv {
+
+		margin-top: 18px;
+	}
+
+}
+
+
+@media screen and (min-width:1440px){
+	#menuline1text, #menuline2text, #menuline3text, #menuline4text{
+		left: 3px;
+		font-size: 13px;
+
+	}
+	#menuline4text, #menuline2text{
+		left: 17px;
+	}
+	#menuline3text {
+		left: 8px;
+	}
+	header{
+		padding-bottom: 785px;
+	}
+	#legend {
+		width: 1000px;
+		left: 203px;
+		top: 221px;
+	}
+	#menubutton1 {
+		left: 466px;
+		width: 233px;
+		height: 47px;
+	}
+	#menubutton2{
+		left: 775px;
+		width: 233px;
+		height: 47px;
+	}
+	#menubuttontext1 {
+		padding-left: 17px;
+		font-size: 17px;
+	}
+	#menubuttontext2 {
+		padding-left: 45px;
+		font-size: 17px;
+	}
+
+	#info h5 {
+		font-size: 37px;
+	}
+	#info img {
+		left: 341px;
+		width: 778px;
+	}
+	#info p {
+		font-size: 17px;
+		width: 867px;
+		margin-left: 100px;
+	}
+
+
+
+	#bannerdiv{
+		width: 444px;
+		height: 319px;
+	}
+
+
+	#bannertext1{
+		font-size: 20px;
+
+
+	}
+	#bannertext2{
+		font-size: 16px;
+	}
+
+	#bannertext3{
+		font-weight: bold;
+		display: inline-block;
+		font-size: 12px;
+		color: #181818;
+
+	}
+	#bannertext4{
+		font-size: 13px;
+	}
+
+	#img1{
+
+		top: -160px;
+		width: 444px;
+		height: 324px;
+	}
+
+	#img2{
+
+		bottom: 319px;
+		left: -5px;
+		height: 642px;
+		width: 496px;
+
+	}
+	#img3{
+		width: 385px;
+		position: relative;
+		top: -961px;
+		left: 939px;
+	}
+	#img3 img{
+		width: 430px;
+		height: 642px;
+
+	}
+
+	#opacityblack{
+		width: 385px;
+		height: 250px;
+		background-color: #000;
+		opacity: 0.5;
+		position: relative;
+		bottom: 251px;
+	}
+
+	#img3 p{
+		position: relative;
+		font-size: 24px;
+		color: #fff;
+		text-align: center;
+		bottom: 420px;
+	}
+	#banner2 {
+		height: 863px;
+	}
+	#banner2div h5 {
+		font-size: 30px;
+	}
+	.banner2div1 h6 {
+		font-size: 20px;
+	}
+	.banner2div1text1 {
+		font-size: 16px;
+	}
+	.li2 p {
+		font-size: 13px;
+	}
+	.li3 p {
+		font-size: 13px;
+	}
+	.banner2div1 {
+		width: 425px;
+		height: 500px;
+	}
+	.divimgg img {
+		width: 225px;
+	}
+}
+
+
