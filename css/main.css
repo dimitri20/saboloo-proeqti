@@ -45,7 +45,7 @@ body{
 
 header{
 	width: 100%;
-	padding-bottom:680px; 
+	padding-bottom: 299px;
 	background-image: url("../images/MainPic.png");
 	/*background-color: #cccccc;*/
 	background-position: bottom;
@@ -69,15 +69,6 @@ header{
 	height: 60px;
 	width: 257px;
 	background-color: #3D2C39;
-}
-
-#yellowlinemenuline{
-	background-color: #F1AF08;
-	width: 96px;
-	height: 60px;
-	top: 19px;
-	left: 374px;
-
 }
 
 #logoimage1{
@@ -185,16 +176,25 @@ header{
 
 
 #legend{
-	top: 267px;
-	left: 260px;
+	display: block;
+	position: static;
+	margin: auto;
+	margin-top: 130px;
 }
 
+#menubutton{
+	margin:auto;
+	display: flex;
+	justify-content:center;
+	margin-top: 100px;
+	
+}
 #menubutton1{
 	background-color: #F1AF08;
-	left: 453px;
-	top: 519px;
 	width: 220px;
 	height: 40px;
+	margin-right: 20px;
+
 }
 #menubutton1:hover{
 	background-color: #971E2C;
@@ -205,12 +205,11 @@ header{
 	padding-left: 38px;
 	padding-top: 9px;
 	font-size: 12px;
+
 }
 
 #menubutton2{
 	background-color: #F1AF08;
-	left: 693px;
-	top: 519px;
 	width: 220px;
 	height: 40px;
 }
@@ -226,6 +225,12 @@ header{
 }
 
 
+
+
+/*section1*/
+#info{
+	margin-bottom: 60px;
+}
 #info h5{
 	color: #3D2C39;
 	font-size: 1.25rem;
@@ -235,9 +240,7 @@ header{
 }
 
 #info img {
-	position: relative;
-	left: 30%;
-
+	margin-left: 336px;
 }
 
 #info p{
@@ -245,15 +248,13 @@ header{
 	font-size: 12px;
 	color: #7F8C8D;
 	text-align: center;
-	width: 761px;
 }
 
 #info div{
-	position: relative;
-	left: 23%;
+	text-align: center;
+	width: 696px;
+	margin: auto;
 }
-
-/*section1*/
 
 #banner{
 	height: 501px;
@@ -334,7 +335,7 @@ header{
 
 /*section2*/
 #banner2{
-	margin-top: 80px;
+	margin-top: 260px;
 	padding-top: 130px;
 	text-align: center;
 	height: 821px;
@@ -366,7 +367,7 @@ header{
 	background-color: #fff;
 	margin-right: 20px;
 	margin-top: 69px;
-	transition: width 1s, height 1s, padding-top 1s;
+	
 }
 
 /*.banner2div1:hover{
@@ -544,19 +545,16 @@ footer{
 /*footer*/
 
 
-@media screen and (min-width: 320px){
+/*  xxs ---  0px - 425px    */
 
+@media screen and (min-width:0px) {
+	
 	header{
-
-		padding-bottom:131px; 
+		background-position: center;
+		padding-bottom: 52px;
 		background-size: 100%;
 	}
 
-	#legend{
-		width: 310px;
-		top: 256px;
-		left: 6px;
-	}
 
 	#menuline1{
 		margin-top: 0px;
@@ -629,12 +627,18 @@ footer{
 		top: 147px;
 		right: 208px;
 	}
+	#legend{
+		width: 290px;
+		margin-top: 0px;
+	}
+
+	
 	#info{
 		margin-top: 157px;
 	}
 
 	#info img{
-		left: 0px;
+		margin-left: -10px;	
 	}
 
 	#info p{
@@ -643,14 +647,19 @@ footer{
 	}
 
 	#info div{
-		left: 10px;
+		width: 305px;
 	}
 	#banner{
+		margin-top: -147px;
 		margin-left: 10px;
 	}
 	#bannerdiv{
 		width: 300px;
 		height: 270px;
+	}
+	#ban{
+		margin:auto;
+		width: 310px;
 	}
 	#img1{
 		width: 150px;
@@ -666,7 +675,7 @@ footer{
 	}
 	#img3{
 		left: 150px;
-		top: -585px;
+		top: -584px;
 	}
 	#img3 img{
 		width: 150px;
@@ -684,15 +693,11 @@ footer{
 	}
 	#banner2{
 		height: 300px;
-		margin-top: 353px;
+		margin-top: 629px;
 
 	}
-	#banner2div{
 
-	}
-	#banner2div img{
-		visibility: hidden;
-	}
+
 	.banner2div1{
 		width: 98%;
 		height: 450px;
@@ -700,7 +705,7 @@ footer{
 		padding-right: 20px;
 		/* left: 17px; */
 		margin-left: 4px;
-		margin-top: 125px;
+		margin-top: 145px;
 	}
 	#banner2div1id{
 		margin-top: 12px;
@@ -713,7 +718,7 @@ footer{
 		margin-top: 1445px;
 	}
 	#divv{
-		text-align: -webkit-auto;
+		text-align: center;
 
 	}
 	#divimg1{
@@ -738,26 +743,30 @@ footer{
 		margin-right: 25px;
 
 	}
+	#menubutton{
+		display: block;
+		text-align: center;
+	}
+
 	#menubutton1{
 		background-color: #F1AF08;
-		left: 73px;
-		top: 395px;
+		margin-bottom: 13px;
 		width: 179px;
 		height: 40px;
+		margin-right: 0px;
+		margin-left: 0px;
 	}
 
 	#menubuttontext1{
 		color: #fff;
 		margin-bottom: 0px;
-		padding-left: 22px;
+		padding-left: 0px;
 		padding-top: 9px;
 		font-size: 12px;
 	}
 
 	#menubutton2{
 		background-color: #F1AF08;
-		left: 73px;
-		top: 457px;
 		width: 179px;
 		height: 40px;
 	}
@@ -765,190 +774,17 @@ footer{
 	#menubuttontext2{
 		color: #fff;
 		margin-bottom: 0px;
-		padding-left: 44px;
+		padding-left: 8px;
 		padding-top: 9px;
 		font-size: 12px;
 	}
-}
-
-
-@media screen and (min-width:375px){
-
-	#nav1div{
-		top: 8px;
-		left: 192px;
-
-	}
-	#nav2div{
-		top: 45px;
-		left: 199px;
-	}
-	#nav3div{
-		top: 82px;
-		left: 198px;
-	}
-	#contact{
-		top: 123px;
-		right: 211px;
-	}
-	#nav4div{
-		right: 54px;
-		top: 117px;
-	}
-	#search{
-		top: 123px;
-		right: 30px;
-	}
-	#legend{
-		width: 339px;
-		top: 237px;
-		left: 20px;
-	}
-	#menubutton1{
-		left: 3px;
-		top: 395px;
-	}
-	#menubutton2{
-		left: 192px;
-		top: 395px;
-	}
-	#info div{
-		left: 35px;
-	}
-	#bannerdiv {
-		width: 357px;
-		height: 270px;
-	}
-	#img1 {
-		width: 182px;
-		top: 0px;
-		left: 0px;
-		height: 227px;
-	}
-	#img2 {
-		bottom: 0px;
-		width: 357px;
-		left: 0px;
-	}
-	#img3 {
-		left: 182px;
-		top: -690px;
-	}
-	#img3 img {
-		width: 175px;
-	}
-	#opacityblack {
-		width: 175px;
-	}
-	#banner2 {
-		margin-top: 458px;
-	}
-	.banner2div1 {
-		width: 98%;
-		height: 450px;
-		padding-left: 20px;
-		padding-right: 20px;
-		left: 17px; 
-		margin-left: 3px;
-		margin-top: 125px;
-	}
-	.divimgg {
-		margin-left: 10px;
-		margin-left: 24px;
-		margin-top: 5px;
-	}
-
 
 }
 
-@media screen and (min-width:425px){
-	#nav1div{
-		left: 220px;
-	}
-	#nav2div{
-		left: 227px; 
-	}
-	#nav3div{
-		left: 227px;
-	}
-	#contact{
-		right: 228px;
-	}
-	#nav4div{
-		right: 75px;
-
-	}
-	#search{
-		right: 50px;
-	}
-	#logoimage1{
-		left: 33px;
-	}
-	#logoimage2{
-		left: 59px;
-	}
-	#legend{
-		width: 381px;
-
-		left: 25px;
-	}
-	#menubutton1{
-		left: 21px;
-	}
-	#menubutton2{
-		left: 225px;
-	}
-	#info h5{
-		font-size: 25px;
-	}
-	#info div{
-		left: 61px;
-	}
-	#bannerdiv{
-		width: 405px;
-	}
-	#img1{
-		width: 208px;
-		height: 255px;
-	}
-	#img2{
-		width:405px;
-	}
-	#img3{
-		left: 208px;
-		top: -780px;
-	}
-	#img3 img{
-		width: 197px;
-
-	}
-	#opacityblack{
-		width: 197px;
-	}
-
-	#banner2{
-		margin-top: 549px;
-	}
-	#banner2div h5{
-		font-size: 25px;
-	}
-	#banner2div1{
-		margin-top: 132px;
-	}
-	.divimgg{
-		margin-left: 28px;
-	}
-	.divimgg img{
-		width: 170px;
-	}
-
-}
-
-
-@media screen and (min-width:768px){
+@media screen and (min-width:426px){
 
 	header{
-		padding-bottom: 328px;
+		padding-bottom: 151px;
 		background-size: cover;
 	}
 
@@ -1045,24 +881,21 @@ footer{
 	}
 
 	#legend{
-		width: 561px;
-		left: 106px;
-		top: 192px;
-	}
-	#menubutton1{
-		left: 200px;
-		top: 469px;
-	}
-	#menubutton2{
-		left: 417px;
-		top: 469px;
+		width: 570px;
+		margin-top: 120px;
 
 	}
+	#menubutton1{
+		margin-right: 20px;
+	}
 	#info img {
-		left: 110px;
+		margin-left: 110px;
 	}
 	#info div {
-		left: 79px;
+		width: 607px;
+	}
+	#ban{
+		width: 100%;
 	}
 	#info p {
 
@@ -1092,26 +925,40 @@ footer{
 		height: 525px;
 
 	}
+	#img3 p{
+		bottom: 408px;
+		font-size: 23px;
+		left: -93px;
+	}
+	#opacityblack{
+		width: 247px;
+		height: 251px;
+		bottom: 251px;
+	}
 	#bannerdiv {
 		width: 272px;
 		height: 300px;
 	}
 	#banner2{
-		margin-top: 174px;
+		margin-top: 267px;
 		height: 852px;
 	}
 
 	.banner2div1 {
-		width: 231px;
-		height: 544px;
+		height: 521px;
 		padding-left: 10px;
 		padding-right: 20px;
 		left: 17px;
 		margin-left: -10px;
 		margin-top: 0px;
+		width: 32%;
+		margin-right: 15px;
+	}
+	#banner2div2id{
+		margin-right: 0;
 	}
 	#banner2div11{
-		margin-left: 24px;
+		margin-left: 0px;
 	}
 	.ul1{
 		margin-top: -40px;
@@ -1130,6 +977,7 @@ footer{
 	}
 
 }
+
 @media screen and (min-width:1024px){
 
 	#legend {
@@ -1146,7 +994,7 @@ footer{
 
 	}
 	#info img {
-		left: 226px;
+		margin-left: 211px;
 	}
 	#info div {
 		left: 195px;
@@ -1209,8 +1057,11 @@ footer{
 
 }
 
+@media screen and (min-width:1366px){
+	
+}
 
-@media screen and (min-width:1440px){
+/*@media screen and (min-width:1440px){
 	#menuline1text, #menuline2text, #menuline3text, #menuline4text{
 		left: 3px;
 		font-size: 13px;
@@ -1359,5 +1210,4 @@ footer{
 		width: 225px;
 	}
 }
-
-
+*/
