@@ -1058,7 +1058,87 @@ footer{
 }
 
 @media screen and (min-width:1366px){
-	
+	header{
+		padding-bottom: 311px;
+	}
+	#nav1div{
+		left: 254px;
+	}
+	#nav2div{
+		left: 472px;
+	}
+	#nav3div{
+		left: 375px;
+	}
+	#logoimage1{
+		left: 126px;
+	}
+	#logoimage2{
+		left: 151px;
+	}
+	#legend{
+		width: 850px;
+		margin-top: 187px;
+	}
+	#menubutton1{
+		width: 220px;
+	}
+	#menubutton2{
+		width: 220px;
+	}
+	#info{
+		margin-top: 203px;
+	}
+	#info h5{
+		font-size: 20px;
+	}
+	#info img{
+		margin-left: 460px;
+	}
+	#info p{
+		width: 739px;
+	}
+	#info div{
+		width: 751px;
+	}
+	#img2{
+		width: 386px;
+	}
+	#img3{
+		left: 769px;
+	}
+	#img3 img{
+		width: 385px;
+	}
+	#opacityblack{
+		width: 385px;
+	}
+	#img3 p{
+		left: -28px;
+	}
+	#ban{
+		width: 79%;
+	}
+	.banner2div1{
+		width: 359px;
+		height: 500px;
+		padding-left: 40px;
+		padding-right: 40px;
+		height: 422px;
+	}
+	#banner2{
+		height: 906px;
+	}
+	#kkk{
+		margin-top: 69px;
+	}
+	.divimgg img {
+		width: 176px;
+	}
+	.divimgg {
+		margin-left: 20px;
+	}
+
 }
 
 /*@media screen and (min-width:1440px){
