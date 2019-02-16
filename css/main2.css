@@ -29,6 +29,9 @@
 	font-family: "BPGArialCaps2010";
 }
 
+body{
+	overflow-x: hidden;
+}
 
 /*globalclass*/
 
@@ -188,7 +191,7 @@
 }
 
 #ges{
-		margin-top: 42px;
+	margin-top: 42px;
 }
 .mis{
 	font-size: 12px;
@@ -225,7 +228,7 @@
 	color: #7F8C8D;
 	margin-top: -15px;
 	text-align: center;
-    margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 
 .fbimgdiv{
@@ -281,3 +284,421 @@ footer{
 
 
 /*footer*/
+
+
+@media screen and (min-width:0px) {
+	
+	header{
+		background-position: center;
+		padding-bottom: 52px;
+		background-size: 100%;
+	}
+
+
+	#menuline1{
+		margin-top: 0px;
+		float: left;
+		height: 190px;
+		width: 100%;
+	}
+
+	#menuline2{
+		width: 0px;
+		height: 0px;
+		position: unset;
+	}
+
+	#logoimage1 {
+		top: 0px;
+		left: 14px;
+	}
+
+	#logoimage2 {
+		top: 41px;
+		left:52px;
+	}
+	#nav1div {
+		width: 115px;
+		height: 36px;
+		top: 8px;
+		left: 157px;
+	}
+	#menuline1text {
+		top: 11px;
+	}
+	#nav2div {
+		width: 93px;
+		height: 36px;
+
+		top: 45px;
+		left: 166px;
+	}
+	#menuline2text {
+		top: 11px;
+	}
+	#nav3div {
+		width: 93px;
+		height: 36px;
+
+		top: 82px;
+		left: 167px;
+	}
+	#menuline4text{
+		top: 11px;
+	}
+	#contact {
+
+		top: 147px;
+		right: 269px;
+	}
+	#nav4div {
+		height: 36px;
+		right: 31px;
+		top: 142px;
+	}
+	#menuline3text{
+		left: 18px;
+		top: 11px;
+
+	}
+	#search {
+
+		top: 147px;
+		right: 208px;
+	}
+	#cntline{
+		margin-left: 0px;
+	}
+	#firstdivv {
+		margin-right: 0;
+	}
+	#seconddiv{
+		margin-top: 50px;
+	}
+	#fb{
+		margin-left: 20px;
+	}
+	#srcli{
+
+		margin-right: 35px;
+
+	}
+
+}
+
+@media screen and (min-width:426px){
+
+	#menuline1{
+		height: 60px;
+		width: 100%;
+	}
+
+	#logoimage2{
+		width: 40px;
+		height: 40px;
+		left: 27px;
+		top: 10px;
+	}
+	#searchimage{	
+		top: 42px;
+		right: 20px;
+	}
+	#contactimage{
+
+		top: 40px;
+		right: 220px;
+	}
+
+	#nav1div{
+		width: 116px;
+		height: 60px;
+		position: absolute;
+		top: 0px;
+		left: 106px;
+
+	}
+	#nav1div:hover{
+		background-color: #F1AF08;
+	}
+
+	#menuline1text{
+		color: #fff;
+		font-size: 12px;
+		left: 7px;
+		top: 21px;
+	}
+
+	#nav2div{
+		width: 96px;
+		height: 60px;
+		position: absolute;
+		top: 0px;
+		left: 231px;
+
+	}
+
+	#menuline2text{
+		color: #fff;
+		font-size: 12px;
+		left: 19px;
+		top: 21px;
+	}
+
+	#nav3div{
+		width: 96px;
+		height: 60px;
+
+		top:0px;
+		left: 333px;
+
+	}
+	#menuline4text{
+		color: #fff;
+		font-size: 12px;
+		left: 19px;
+		top: 21px;
+	}
+
+	#nav4div{
+		width: 150px;
+		height: 60px;
+
+		top: 0px;
+		right: 68px;
+
+	}
+	#menuline3text{
+		color: #fff;
+		font-size: 12px;
+		left:13px;
+		top: 21px;
+	}
+
+	#contact{
+
+		
+		top: 15px;
+		right: 231px;
+	}
+	#search{
+
+		top: 15px;
+		right: 37px;
+	}
+	#cntline {
+		margin-left: 112px;
+	}
+	#firstdivv {
+		margin-right: 96px;
+	}
+}
+
+@media screen and (min-width:1024px){
+	#firstdivv {
+		margin-right: 245px;
+	}
+	#cntline {
+		margin-left: 219px;
+	}
+	#srcli {
+		margin-right: 93px;
+	}
+	#fb {
+		margin-left: 95px;
+	}
+}
+@media screen and (min-width:1366px){
+      
+#menuline1{
+	height: 60px;
+	width: 100%;
+	background-color: #3D2C39;
+}
+
+#logoimage2{
+	width: 40px;
+	height: 40px;
+	left: 103px;
+	top: 10px;
+}
+#searchimage{	
+	top: 42px;
+	right: 20px;
+}
+#contactimage{
+	
+	top: 40px;
+	right: 220px;
+}
+
+#nav1div{
+	width: 116px;
+	height: 60px;
+	position: absolute;
+	top: 0px;
+	left: 167px;
+	
+}
+
+#menuline1text{
+	color: #fff;
+	font-size: 12px;
+	left: 7px;
+	top: 21px;
+}
+
+#nav2div{
+	width: 96px;
+	height: 60px;
+	position: absolute;
+	top: 0px;
+	left: 290px;
+
+}
+
+#menuline2text{
+	color: #fff;
+	font-size: 12px;
+	left: 19px;
+	top: 21px;
+}
+#nav3div{
+	width: 96px;
+	height: 60px;
+	position: absolute;
+	top:0px;
+	left: 392px;
+	
+}
+#menuline4text{
+	color: #fff;
+	font-size: 12px;
+	left: 19px;
+	top: 21px;
+}
+#nav4div{
+	width: 150px;
+	height: 60px;
+	position: absolute;
+	top: 0px;
+	right: 160px;
+	
+}
+#menuline3text{
+	color: #fff;
+	font-size: 12px;
+	left:13px;
+	top: 21px;
+}
+#contact{
+
+	position: absolute;
+	top: 15px;
+	right: 319px;
+}
+#search{
+	position: absolute;
+	top: 15px;
+	right: 105px;
+}
+/*header*/
+
+#cntt{
+	margin-top: 51px;
+}
+
+#contactinfo{
+	font-size: 20px;
+	color: #3D2C39;
+	text-align: center;
+}
+
+#cntline{
+	display: block;
+	margin-left: 408px;
+	margin-top: 14px;
+}
+
+#tsu{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 100px;
+
+}
+
+#geossell{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 93px;
+	height: 100px;
+}
+#maindiv{
+	margin-top: 57px;
+	text-align: center;
+}
+
+.tsutext{
+	font-size: 16px;
+	color: #3D2C39;
+	margin-top: 24px;
+	text-align: center;
+}
+
+#ges{
+	margin-top: 42px;
+}
+.mis{
+	font-size: 12px;
+	color:#000;
+	margin-top: 28px;
+	text-align: center;
+}
+.qobstreet{
+	font-size: 12px;
+	color: #7F8C8D;
+	margin-top: -15px;
+	text-align: center;
+}
+.tell{
+	font-size: 12px;
+	color:#000;
+	margin-top: 20px;
+	text-align: center;
+}
+.tellnumber{
+	font-size: 12px;
+	color: #7F8C8D;
+	margin-top: -15px;
+	text-align: center;
+}
+.email{
+	font-size: 12px;
+	color:#000;
+	margin-top: 20px;
+	text-align: center;
+}
+.emaill{
+	font-size: 12px;
+	color: #7F8C8D;
+	margin-top: -15px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.fbimgdiv{
+	position: absolute;
+	left: 44%;
+	margin-top: 60px;
+}
+
+.fbpage{
+	top: 14px;
+	left: 38px;
+}
+#firstdivv{
+	margin-right: 115px;
+}
+}

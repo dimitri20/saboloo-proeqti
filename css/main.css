@@ -266,6 +266,7 @@ header{
 	background-color: #fff;
 	width: 385px;
 	height: 250px;
+	display: inherit;
 }
 
 #bannertext1{
@@ -656,6 +657,7 @@ footer{
 	#bannerdiv{
 		width: 300px;
 		height: 270px;
+		display: inherit;
 	}
 	#ban{
 		margin:auto;
@@ -938,6 +940,7 @@ footer{
 	#bannerdiv {
 		width: 272px;
 		height: 300px;
+		display: inherit;
 	}
 	#banner2{
 		margin-top: 267px;
@@ -1002,6 +1005,7 @@ footer{
 	#bannerdiv{
 		width: 385px;
 		height: 250px;
+		display: flow-root;
 	}
 	#img1 {
 		width: 384px;
@@ -1093,7 +1097,7 @@ footer{
 		font-size: 20px;
 	}
 	#info img{
-		margin-left: 460px;
+		margin-left: 394px;
 	}
 	#info p{
 		width: 739px;
@@ -1129,6 +1133,9 @@ footer{
 	#banner2{
 		height: 906px;
 	}
+	#banner{
+		margin-left: -40px;
+	}
 	#kkk{
 		margin-top: 69px;
 	}
@@ -1141,7 +1148,7 @@ footer{
 
 }
 
-/*@media screen and (min-width:1440px){
+@media screen and (min-width:1440px){
 	#menuline1text, #menuline2text, #menuline3text, #menuline4text{
 		left: 3px;
 		font-size: 13px;
@@ -1172,11 +1179,11 @@ footer{
 		height: 47px;
 	}
 	#menubuttontext1 {
-		padding-left: 17px;
+		padding-left:6px;
 		font-size: 17px;
 	}
 	#menubuttontext2 {
-		padding-left: 45px;
+		padding-left: 7px;
 		font-size: 17px;
 	}
 
@@ -1192,12 +1199,16 @@ footer{
 		width: 867px;
 		margin-left: 100px;
 	}
+	#info div {
+		width: 979px;
+	}
 
 
 
 	#bannerdiv{
 		width: 444px;
 		height: 319px;
+
 	}
 
 
@@ -1289,5 +1300,15 @@ footer{
 	.divimgg img {
 		width: 225px;
 	}
+	#ban {
+		width: 90%;
+	}
+	#banner2{
+		margin-top: 409px;
+		height: 919px;
+	}
+	.divimgg img {
+		width: 207px;
+	}
 }
-*/
+
